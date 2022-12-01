@@ -7,10 +7,11 @@
 
 <div align="center">
 <h3>Conheça a página desenvolvida </h3>
+<a><h4> 📺 Prints das Páginas </h4></a>
 </div>
-<a> 📺 Prints das Páginas </a>
+
 
 <img src="https://github.com/diegogodoy06/DnNene-Pag-Restaurante/blob/main/Print/pag-1.jpg">
-<img src="">
+<img src="https://github.com/diegogodoy06/DnNene-Pag-Restaurante/blob/main/Print/pag-1.1.jpg">
 <img src="">
 <img src="">
