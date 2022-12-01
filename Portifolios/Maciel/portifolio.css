@@ -1,0 +1,32 @@
+
+.content
+{
+    background-color:#597458;
+}
+
+.nome{
+    text-align:center;
+    font-family:sans-serif;
+}
+
+.img{
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+}
+
+.a
+{
+    background-color:#4f297a;
+    font-family: 'Courier New', Courier, monospace;
+}
+.b
+{
+    background-color:#947fe6;
+    font-family: 'Courier New', Courier, monospace;
+}
+.c
+{
+    background-color:#928e95;
+    font-family: 'Courier New', Courier, monospace;
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D&#170; Cadastro</title>
+    <link rel="stylesheet" href="../Inicial/Css_Secundario.css" type="text/css">
+</head>
+
+
+<body class="fundo">
+
+    <header class="cabecalho">
+        <img class="img-cabecalho" src="../Inicial/img/pngegg.png" alt="Logo">
+        <nav class="cabecalho-itens">
+            <a class="texto-cabecalho" href="/pgInicial">Home</a>
+            <a class="texto-cabecalho" href="/pgCardapio">Cadápio do Dia</a>
+            <a class="texto-cabecalho-fixo" href="../Sobre/Pag_Sobre.html">Sobre</a>
+            <a class="texto-cabecalho-fixo" href="">Administrador</a>
+        </nav>
+    </header>
+
+    <main class="cadastro_body">
+        <div class="divide">
+
+             <div class="caixa_cadastro_tipo">
+
+            <h1 class="titulo_cadastro">Cadastro de Tipos</h1>
+            <p class="subtitulo_cadastro">Somente tipos não cadastrados serão aceitos!</p>
+           <form class="form">
+                <div>
+                    <div class="agrupamento">
+                        <label class="opcao" for="">Nome</label> <br>
+                        <input class="caixa_nome" type="text" name="nome" maxlength="28" id="nome" required
+                            placeholder="Digite o tipo do prato">
+                    </div>
+                    <div class="agrupamento">
+                        <label class="opcao" for="">Tipos já cadastrados:</label> <br><br>
+                        <label class="ja_cadastrado" for="">◎ Entradas</label><br>
+                        <label class="ja_cadastrado" for="">◎ Pratos Principais</label><br>
+                        <label class="ja_cadastrado" for="">◎ Pratos Executivos</label><br>
+                        <label class="ja_cadastrado" for="">◎ Pratos conceituados</label><br>
+                        <label class="ja_cadastrado" for="">◎ Sobremesas</label><br>
+                    </div>
+                    <button onclick="cadastrado()" class="btn_cadastro">Cadastrar</button>
+                </div>
+            </form>                
+        </div>
+
+
+    </main>
+
+    <footer class="rodape">
+        <div class="rodape-display">
+            <img class="imagem-rodape" src="../Inicial/img/pngegg.png" alt="Logo">
+            <div>
+                <h1 class="titulo-rodape">Categorias</h1>
+                <div class="links-display">
+                    <a class="subtitulo-rodape" href="/pgInicial">Home</a>
+                    <a class="subtitulo-rodape" href="/pgCardapio">Cadápio do Dia</a>
+                    <a class="subtitulo-rodape" href="../Sobre/Pag_Sobre.html">Sobre</a>
+                </div>
+            </div>
+            <div>
+                <h1 class="titulo-rodape">Outros Links</h1>
+                <div class="links-display">
+                    <a class="subtitulo-rodape" href="../Sobre/Pag_Sobre.html">Sobre</a>
+                    <a class="subtitulo-rodape" href="../Pag_Login/Pag_Login.html">Admistrador</a>
+                </div>
+            </div>
+        </div>
+        <div class="alinhamento">
+            <hr>
+            <p class="subtitulo-rodape">Copyright © - D&#170; NENÊ - Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+
+
+</body>
+
+
+
+</html>

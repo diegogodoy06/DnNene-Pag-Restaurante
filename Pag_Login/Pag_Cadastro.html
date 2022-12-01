@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D&#170; Cadastro</title>
+    <link rel="stylesheet" href="../Inicial/Css_Secundario.css" type="text/css">
+</head>
+
+
+<body class="fundo">
+
+    <script>
+        function cadastrar_pratos() {
+            location.href = "/pgPrato";
+        }
+        function cadastrar_tipos() {
+            location.href = "/pgTipo";
+        } 
+    </script>
+
+
+    <header class="cabecalho">
+        <img class="img-cabecalho" src="../Inicial/img/pngegg.png" alt="Logo">
+        <nav class="cabecalho-itens">
+            <a class="texto-cabecalho" href="/pgInicial">Home</a>
+            <a class="texto-cabecalho" href="/pgCardapio">Cadápio do Dia</a>
+            <a class="texto-cabecalho-fixo" href="../Sobre/Pag_Sobre.html">Sobre</a>
+            <a class="texto-cabecalho-fixo" href="">Administrador</a>
+        </nav>
+    </header>
+
+    <main class="cadastro_body_bu">
+        <div class="divide">
+
+            <div class="caixa_cadastro_tipo_bu" style="margin-right: 20px;">
+
+                <h1 class="titulo_cadastro">Cadastro de Pratos</h1>
+                <button onclick="cadastrar_pratos()" class="btn_cadastro">Cadastrar</button>
+
+                <br><br><br><br><br>
+
+            </div>
+
+            <div class="divide">
+                <div class="caixa_cadastro_tipo_bu" style="margin-right: 20px;">
+
+                    <h1 class="titulo_cadastro">Cadastro de Tipos</h1>
+                    <button onclick="cadastrar_tipos()" class="btn_cadastro">Cadastrar</button>
+                </div>
+            </div>
+    </main>
+
+    <footer class="rodape">
+        <div class="rodape-display">
+            <img class="imagem-rodape" src="../Inicial/img/pngegg.png" alt="Logo">
+            <div>
+                <h1 class="titulo-rodape">Categorias</h1>
+                <div class="links-display">
+                    <a class="subtitulo-rodape" href="/pgInicial">Home</a>
+                    <a class="subtitulo-rodape" href="/pgCardapio">Cadápio do Dia</a>
+                    <a class="subtitulo-rodape" href="../Sobre/Pag_Sobre.html">Sobre</a>
+                </div>
+            </div>
+            <div>
+                <h1 class="titulo-rodape">Outros Links</h1>
+                <div class="links-display">
+                    <a class="subtitulo-rodape" href="../Sobre/Pag_Sobre.html">Sobre</a>
+                    <a class="subtitulo-rodape" href="../Pag_Login/Pag_Login.html">Admistrador</a>
+                </div>
+            </div>
+        </div>
+        <div class="alinhamento">
+            <hr>
+            <p class="subtitulo-rodape">Copyright © - D&#170; NENÊ - Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+
+
+</body>
+
+
+
+</html>

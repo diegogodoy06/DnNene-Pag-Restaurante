@@ -1,0 +1,11 @@
+
+
+body{
+    background-color: darkslategray;
+}
+
+.img1{
+    height: 500px;
+    width: 500px;
+    object-fit: cover;
+}

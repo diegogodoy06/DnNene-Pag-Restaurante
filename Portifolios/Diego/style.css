@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background-image: url(lines120.png);
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+
+
+}
+
+.cabeçalho {
+    display: flex;
+    background-color: white;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.cabeçalho-img {
+    height: 72px;
+}
+
+.cabeçalho-menu {
+    display: flex;
+    gap: 32px;
+}
+
+.cabeçalho-menu-item {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #2b49ce;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.conteudo {
+
+    border-top: 0.4px solid #2445a0; 
+    margin-bottom: 48px;
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 80px;
+}
+
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+
+}
+
+.conteudo-principal-escrito-titulo {
+    font-family:Arial, Helvetica, sans-serif ;
+    font-weight: 400;
+    font-size: 64px;
+    color: #1a63c4;
+}
+
+.conteudo-principal-escrito-subtitulo {
+    font-family:Arial, Helvetica, sans-serif ;
+    font-weight: 400;
+    font-size: 24px;
+    color: #1a63c4;
+}
+
+.conteudo-principal-escrito-lista {
+    font-family:Arial, Helvetica, sans-serif ;
+    font-weight: 400;
+    font-size: 24px;
+    color: #1a63c4;
+    padding-bottom: 20px;
+}
+
+.conteudo-principal-escrito-botao{
+    margin-right: 20px;
+    text-decoration: none;
+    border-radius: 20px;
+    width: 150px;
+    text-align: center;
+    padding: 16px;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-weight: 400;
+    font-size: 22px;
+    color: #ffff;
+    background-color: #1a63c4;
+    box-shadow: 2px 2px 2px rgb(201, 201, 201);
+}
+
+.conteudo-principal-escrito-botao:hover {
+    background-color: #1351a3;
+    transition: background 0.5s;
+}
+
+.conteudo-principal-imagem {
+    margin-top: 58px;
+    height: 430px;
+}
+
+.conteudo-secundario {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+    margin-top: 48px;
+}
+
+.conteudo-secundario-titulo-separa {
+    font-family: Arial, Helvetica, sans-serif;
+    border-top: 0.4px solid #2e6dbe;
+    padding-top: 58px;
+    font-weight: 600;
+    font-size: 24px;
+    color: #1a63c4;
+}
+
+.conteudo-secundario-titulo {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 28px;
+    font-weight: 600;
+    font-size: 24px;
+    color: #1a63c4;
+}
+
+.conteudo-secundario-paragrafo {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #2e6dbe;
+    text-align: center;
+}
+
+.rodape {
+    padding: 32px;
+    background-color: white;
+    border-top: 0.4px solid #1a63c4; 
+}
+
+.rodape-imagem {
+    height: 48px;
+    display: block;
+    margin: 0 auto;
+}

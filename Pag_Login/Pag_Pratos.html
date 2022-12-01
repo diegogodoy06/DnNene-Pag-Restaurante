@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D&#170; Cadastro</title>
+    <link rel="stylesheet" href="../Inicial/Css_Secundario.css" type="text/css">
+</head>
+
+
+<body class="fundo">
+
+    <header class="cabecalho">
+        <img class="img-cabecalho" src="../Inicial/img/pngegg.png" alt="Logo">
+        <nav class="cabecalho-itens">
+            <a class="texto-cabecalho" href="/pgInicial">Home</a>
+            <a class="texto-cabecalho" href="/pgCardapio">Cadápio do Dia</a>
+            <a class="texto-cabecalho-fixo" href="../Sobre/Pag_Sobre.html">Sobre</a>
+            <a class="texto-cabecalho-fixo" href="">Administrador</a>
+        </nav>
+    </header>
+
+    <main class="cadastro_body">
+        <div class="divide">
+
+        <div class="caixa_cadastro">
+
+            <h1 class="titulo_cadastro">Cadastro de pratos</h1>
+            <p class="subtitulo_cadastro">Complete todas as informações do prato</p>
+
+            <form class="form">
+                <div>
+                    <div class="agrupamento">
+                        <label class="opcao" for="">Nome</label> <br>
+                        <input class="caixa_nome" type="text" name="nome" maxlength="28" id="nome" required
+                            placeholder="Digite o nome do prato">
+                    </div>
+                    <div class="agrupamento">
+                        <label class="opcao" for="">Valor:</label> <br>
+                        <label class="opcao_2" for="">R$:</label>
+                        <input class="caixa_valor" type="number" name="valor" id="valor" min="0" required>
+                    </div>
+                </div>
+
+                <div class="agrupamento">
+                    <label class="opcao_3" for="">Qual o Dia?</label> <br><br>
+                    <label class="opcao_2" for="">
+                        <input type="radio" name="dia" value="Segunda">Segunda
+                    </label>
+                    <label class="opcao_2" for="">
+                        <input type="radio" name="dia" value="Terça">Terça
+                    </label>
+                    <label class="opcao_2" for="">
+                        <input type="radio" name="dia" value="Quarta">Quarta
+                    </label>
+                    <label class="opcao_2" for="">
+                        <input type="radio" name="dia" value="Quinta">Quinta <br>
+                    </label>
+                    <label class="opcao_2" for="">
+                        <input type="radio" name="dia" value="Sexta">Sexta
+                    </label>
+                    <label class="opcao_2" for="">
+                        <input type="radio" name="dia" value="Sábado">Sábado
+                    </label>
+                    <label class="opcao_2" for="">
+                        <input type="radio" name="dia" value="Domingo">Domingo
+                    </label>
+                </div>
+
+                <div class="agrupamento">
+                    <label class="opcao" for="">Adicione a descrição</label> <br>
+                    <textarea class="caixa_descrição" cols="5" name="textarea" rows="5" placeholder="Escreva aqui"
+                        rows="10" style="width: 100%; font-size: 16px; border-radius: 10px;
+                margin-top: 10px;"></textarea>
+                </div>
+
+                <div class="agrupamento">
+                    <label class="opcao" for="">Adicione uma imagem</label> <br>
+                    <input type="file" name="enviar_img" id="enviar_img" accept="image/*">
+                </div>
+
+
+
+                <button onclick="cadastrado()" class="btn_cadastro">Cadastrar</button>
+
+            </form>
+
+        </div>
+
+
+    </main>
+
+    <footer class="rodape">
+        <div class="rodape-display">
+            <img class="imagem-rodape" src="../Inicial/img/pngegg.png" alt="Logo">
+            <div>
+                <h1 class="titulo-rodape">Categorias</h1>
+                <div class="links-display">
+                    <a class="subtitulo-rodape" href="/pgInicial">Home</a>
+                    <a class="subtitulo-rodape" href="/pgCardapio">Cadápio do Dia</a>
+                    <a class="subtitulo-rodape" href="../Sobre/Pag_Sobre.html">Sobre</a>
+                </div>
+            </div>
+            <div>
+                <h1 class="titulo-rodape">Outros Links</h1>
+                <div class="links-display">
+                    <a class="subtitulo-rodape" href="../Sobre/Pag_Sobre.html">Sobre</a>
+                    <a class="subtitulo-rodape" href="../Pag_Login/Pag_Login.html">Admistrador</a>
+                </div>
+            </div>
+        </div>
+        <div class="alinhamento">
+            <hr>
+            <p class="subtitulo-rodape">Copyright © - D&#170; NENÊ - Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+
+
+</body>
+
+
+
+</html>

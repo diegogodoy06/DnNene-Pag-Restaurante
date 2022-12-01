@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    border: 0;
+
+
+}
+
+.conteudo-1 {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url(kkkjjj.jpg);
+    background-size: cover;
+    margin-bottom: 100 px;
+}
+.conteudo-2 {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: row;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.nome{
+    font-size: 60px ;  
+    color: white;  
+}
+
+.subnome{
+    color: rgb(218, 218, 218) ;
+}
+
+.txt-cont{
+    margin-left: 150px;
+    margin-bottom: 30px;
+}
+
+.img{
+    height: 350px;
+    border-radius: 10px;
+}
+
+.txt-cont2{
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
