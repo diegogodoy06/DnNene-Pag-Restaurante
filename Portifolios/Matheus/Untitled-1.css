@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    border: 0;
+
+
+}
+
+.conteudo-1 {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url(kkkjjj.jpg);
+    background-size: cover;
+    margin-bottom: 100 px;
+}
+.conteudo-2 {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: row;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.nome{
+    font-size: 60px ;  
+    color: white;  
+}
+
+.subnome{
+    color: rgb(163, 163, 163) ;
+}
+
+.img-foto3x4{
+    height: 450px;
+    border-radius: 10px;
+    margin-bottom: 200px;
+}
+
+.contato{
+    margin-top: 50px;
+    margin-left: 40px;
+    src: url(burbank-big-condensed-bold.otf);
+    font-family: 'fortnite';
+}
+
+.img-instagram-logo{
+    margin-top: -350px; 
+    height: 50px;
+    position: absolute;
+    left: 60px;
+    bottom: 255px;
+}
+
+.img-linkedin{
+    margin-top: -350px;
+    height: 50px;
+    position: absolute;
+    left: 60px;
+    bottom: 190px;
+}
+
+.img-whatsapp{
+    margin-top: -350px;
+    height: 50px;
+    position: absolute;
+    left: 60px;
+    bottom: 125px;
+}
+
+.img-gmail{
+    margin-top: -350px;
+    height: 35px;
+    position: absolute;
+    left: 62px;
+    bottom: 82px;
+}
+
+.txt-cont{
+    margin-left: 100px;
+    margin-bottom: 30px;
+}
+
+.txt-cont2{
+    margin-bottom: 80px;
+    margin-top: 20px;
+}
+
+.formação{
+    position: absolute;
+    left: 50px;
+    font-size: 30px;
+    src: url(burbank-big-condensed-bold.otf);
+    font-family: 'fortnite';
+}
+
+.img-certificado{
+    margin-top: -350px;
+    height: 550px;
+    position: absolute;
+    left: 900px;
+    bottom: -600px;
+}
+
+.img-seta{
+    margin-top: -350px;
+    height: 180px;
+    position: absolute;
+    left: 650px;
+    bottom: -125px;
+}
