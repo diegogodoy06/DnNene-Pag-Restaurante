@@ -1,12 +1,13 @@
 <div align="center">
 <h1> DnNenen-Pagina-Restaurante </h1>
-</div>
+
+</div> 
 
 <h2> Página de um restaurante feito para estudos, usando HTML, CSS, SLQ, CHERRY PY (framework)</h2>
 <br>
 
 <div align="center">
-<h3>Conheça a página desenvolvida </h3>
+    <h3>Conheça a página desenvolvida </h3>
 <a><h4> 📺 Prints das Páginas </h4></a>
 <br><br>
 </div>
