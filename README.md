@@ -18,7 +18,7 @@
 
 <br>
 <div align="center">
-    <a><h4> 📺 Pagina Para Cadastro de Pratos e Categorias de pratos </h4></a>
+    <a><h3> 📺 Pagina Para Cadastro de Pratos e Categorias de pratos </h3></a>
 <br><br>
 </div>
 
@@ -27,7 +27,7 @@
 
 <br>
 <div align="center">
-    <a><h4> 📺 Pagina Que contem todos os Pratos cadastrados, referentes ao DIA de hoje </h4></a>
+    <a><h3> 📺 Pagina Que contem todos os Pratos cadastrados, referentes ao DIA de hoje </h3></a>
 <br><br>
 </div>
 
