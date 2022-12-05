@@ -14,5 +14,5 @@
 
 <img src="https://github.com/diegogodoy06/DnNene-Pag-Restaurante/blob/main/Print/pag-1.jpg">
 <img src="https://github.com/diegogodoy06/DnNene-Pag-Restaurante/blob/main/Print/pag-1.1.jpg">
-<img src="https://github.com/diegogodoy06/DnNene-Pag-Restaurante/blob/main/Print/pag-1.2.jpg">
+<img src="https://github.com/diegogodoy06/DnNene-Pag-Restaurante/blob/main/Print/pag1.2.jpg">
 <img src="">
