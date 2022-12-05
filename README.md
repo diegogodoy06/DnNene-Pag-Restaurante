@@ -32,3 +32,4 @@
 </div>
 
 <img src="https://github.com/diegogodoy06/DnNene-Pag-Restaurante/blob/main/Print/pag-3.jpg">
+<img src="https://github.com/diegogodoy06/DnNene-Pag-Restaurante/blob/main/Print/pag-3.1.jpg">
