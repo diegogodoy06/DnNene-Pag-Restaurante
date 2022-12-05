@@ -19,5 +19,16 @@
 <br>
 <div align="center">
     <a><h4> 📺 Pagina Para Cadastro de Pratos e Categorias de pratos </h4></a>
-    <br><br>
-    </div>
+<br><br>
+</div>
+
+<img src="https://github.com/diegogodoy06/DnNene-Pag-Restaurante/blob/main/Print/pag-2.jpg">
+<img src="https://github.com/diegogodoy06/DnNene-Pag-Restaurante/blob/main/Print/pag-2.1.jpg">
+
+<br>
+<div align="center">
+    <a><h4> 📺 Pagina Que contem todos os Pratos cadastrados, referentes ao DIA de hoje </h4></a>
+<br><br>
+</div>
+
+<img src="https://github.com/diegogodoy06/DnNene-Pag-Restaurante/blob/main/Print/pag-3.jpg">
