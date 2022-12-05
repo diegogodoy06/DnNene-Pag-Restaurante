@@ -33,3 +33,9 @@
 
 <img src="https://github.com/diegogodoy06/DnNene-Pag-Restaurante/blob/main/Print/pag-3.jpg">
 <img src="https://github.com/diegogodoy06/DnNene-Pag-Restaurante/blob/main/Print/pag-3.1.jpg">
+
+<br><br>
+<h2> Instalação</h2>
+<br>
+<h3>Basta baixar todos os arquivos, executar o arquivo python INICIAL.PY</h3>
+<h4>Você deve ter o framework cherrypy instalado</h4>
